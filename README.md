@@ -1,2 +1,1 @@
-# Joma.Io Website
-
+# Personal Website - Created by David McGuire
