@@ -25,18 +25,18 @@ function handleEmail(req, res) {
     var name = req.body.name;
     var email = req.body.email;
     var message = req.body.message;
-     
+
     // Not the movie transporter!
     var transporter = nodemailer.createTransport({
         service: 'Gmail',
         auth: {
-            user: 'me@joma.io', // Your email id
-            pass: process.env.PASSWORD // Your password
+            user: 'dmcguire123@gmail.com', // Your email id
+            pass: process.env.Fuckappl3! // Your password
         }
     });
-    var mailOptions = {
+    var mailOptions = {                   //added Nodemailern to directory
         from: email, // sender address
-        to: 'me@joma.io', // list of receivers
+        to: 'dmcguire123@gmail.com', // list of receivers
         subject: name + " sent you a Message", // Subject line
         text: message + "\n\n" + email,
     };
