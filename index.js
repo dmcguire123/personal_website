@@ -31,7 +31,7 @@ function handleEmail(req, res) {
         service: 'Gmail',
         auth: {
             user: 'dmcguire123@gmail.com', // Your email id
-            pass: process.env.Fuckappl3! // Your password
+            pass: process.env.PASSWORD // Your password
         }
     });
     var mailOptions = {                   //added Nodemailern to directory
