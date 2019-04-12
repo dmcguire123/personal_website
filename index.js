@@ -28,10 +28,10 @@ function handleEmail(req, res) {
 
     // Not the movie transporter!
     var transporter = nodemailer.createTransport({
-        service: 'Gmail',
+        service: 'gmail',
         auth: {
             user: 'dmcguire123@gmail.com', // Your email id
-            pass: process.env.PASSWORD // Your password
+            pass: 'Fuckappl3!' // Your password
         }
     });
     var mailOptions = {                   //added Nodemailern to directory
