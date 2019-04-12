@@ -1,0 +1,6 @@
+{
+  "name": "Joma Website",
+  "description": "Joma Tech's website",
+  "keywords": ["node", "express", "heroku"],
+  "image": "heroku/nodejs"
+}
