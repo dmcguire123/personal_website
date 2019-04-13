@@ -31,7 +31,7 @@ function handleEmail(req, res) {
         service: 'gmail',
         auth: {
             user: 'daveymcg123@gmail.com', // Your email id
-            pass: 'dav54321' // Your password
+            pass: 'ggzjfllroibdeqxq' // Your password
         }
     });
     var mailOptions = {                   //added Nodemailern to directory
