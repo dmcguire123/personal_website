@@ -30,8 +30,8 @@ function handleEmail(req, res) {
     var transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-            user: 'dmcguire123@gmail.com', // Your email id
-            pass: 'Fuckappl3!' // Your password
+            user: 'daveymcg123@gmail.com', // Your email id
+            pass: 'dav54321' // Your password
         }
     });
     var mailOptions = {                   //added Nodemailern to directory
