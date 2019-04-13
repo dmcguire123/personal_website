@@ -36,7 +36,7 @@ function handleEmail(req, res) {
     });
     var mailOptions = {                   //added Nodemailern to directory
         from: email, // sender address
-        to: 'dmcguire123@gmail.com', // list of receivers
+        to: 'daveymcg123@gmail.com', // list of receivers
         subject: name + " sent you a Message", // Subject line
         text: message + "\n\n" + email,
     };
